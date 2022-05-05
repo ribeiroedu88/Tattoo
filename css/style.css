@@ -10,7 +10,7 @@
 /****** FONTES *******/
 @font-face {
     font-family: 'Backslash';
-    src: url('../fonts/Backslash-Reguler.otf') format ('otf');
+    src: url('../fonts/Backslash-Reguler.otf') format ('opentype');
     font-weight: normal;
     font-style: normal;
 }
