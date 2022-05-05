@@ -69,7 +69,7 @@ ul {
     width: 80%;
     background: var(--clr-segundaria);
     margin: 0 auto;
-    position: relative;
+    /* position: relative; */
     align-content: center;
 }
 
@@ -89,7 +89,8 @@ ul {
 #txt-capa h1 {
     font-family: 'Backslash', Arial, Helvetica, sans-serif;
     font-size: 4rem;
-    font-weight: 500;
+    font-weight: normal;
+    font-style: normal;
     letter-spacing: 0.2rem;
     line-height: 3.5rem;
 }
@@ -102,6 +103,7 @@ h1 .destaque {
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-size: 1.1rem;
     font-weight: normal;
+    font-style: normal;
     line-height: 1.8rem;
     margin-bottom: 50px;
 }
