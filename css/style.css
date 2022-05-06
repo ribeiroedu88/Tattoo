@@ -207,10 +207,6 @@ p {
     margin-bottom: 0px;
 }
 
-.fake {
-    width: 20px;
-}
-
 #studio--txt {
     margin: 0;
     padding: 0;
@@ -235,10 +231,6 @@ p {
     #studio-conteudo {
         min-height: 100vh;
         width: 100%;
-    }
-
-    .fake {
-        display: none;
     }
 
     #studio--txt {
