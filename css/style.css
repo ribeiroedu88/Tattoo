@@ -78,47 +78,12 @@ h1 .destaque {
     color: var(--clr-terciaria);
 }
 
- /***************** CONFIGURARÇÃO HAMBURGER MOBILE *****************/
-
- @media screen and (max-width: 768px) {
-    #nav-bar {
-        width: 100%;
-        justify-content: space-between;
-    }
-
-    #nav-bar__logo {
-        margin-left: 20px;
-    }
-
-    #btn-hamburger {
-        display: block;
-    }
-
-    #btn-mobile {
-        background-color: transparent;
-        border: none;
-        outline: none;
-        cursor: pointer;
-    }
-
-    #btn-mobile .line {
-        display: block;
-        width: 40px;
-        height: 3px;
-        background-color: #f1f1f1;
-        margin: 10px;
-        border-radius: 4px;
-        transition: .2s;
-        opacity: .25s;
-    }
-}
-
 /***************** CONFIGURARÇÃO HOME *****************/
 #container-main {
     width: 80%;
     background: var(--clr-segundaria);
     margin: 0 auto;
-    align-content: center;
+    /* align-content: center; */
 }
 
 .capa-bg {
@@ -202,20 +167,46 @@ h1 .destaque {
     }
 }
 
+ /***************** CONFIGURARÇÃO HAMBURGER MOBILE *****************/
+
+ @media screen and (max-width: 768px) {
+    #nav-bar {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    #nav-bar__logo {
+        margin-left: 20px;
+    }
+
+    #btn-hamburger {
+        display: block;
+    }
+
+    #btn-mobile {
+        background-color: transparent;
+        border: none;
+        outline: none;
+        cursor: pointer;
+    }
+
+    #btn-mobile .line {
+        display: block;
+        width: 40px;
+        height: 3px;
+        background-color: #f1f1f1;
+        margin: 10px;
+        border-radius: 4px;
+        transition: .2s;
+        opacity: .25s;
+    }
+}
+
 /***************** CONFIGURARÇÃO STUDIO *****************/
 
 #studio {
    min-height: 100vh;
    border: 1px solid #f23005;
-   align-items: center;
-}
-
-#article-studio {
-    margin: 0 auto;
-}
-
-#article-studio img {
-    border-bottom: 15px solid #f23005;
 }
 
 #studio--txt h1 {
