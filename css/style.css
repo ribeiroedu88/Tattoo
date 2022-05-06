@@ -52,6 +52,15 @@ h1 .destaque {
     color: var(--clr-primaria);
 }
 
+p {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1.8rem;
+    color: var(--clr-terciaria);
+}
+
 /***************** CONFIGURARÇÃO NAVEGAÇÃO *****************/
 
 #nav-bar {
@@ -100,19 +109,12 @@ h1 .destaque {
 }
 
 #txt-capa {
-    color: #f1f1f1;
     width: 50%;
     margin: -50% auto;
     text-align: center;
 }
 
-
 #txt-capa p {
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
-    font-size: 1.1rem;
-    font-weight: normal;
-    font-style: normal;
-    line-height: 1.8rem;
     margin-bottom: 50px;
 }
 
@@ -146,7 +148,6 @@ h1 .destaque {
     }
 
     #txt-capa {
-        color: #f1f1f1;
         width: auto;
         position: relative;
         margin: -140% 20px 0px 20px;
@@ -234,11 +235,6 @@ h1 .destaque {
 }
 
 #studio--descricao {
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
-    font-size: 1.1rem;
-    font-weight: normal;
-    font-style: normal;
-    line-height: 1.8rem;
     color: var(--clr-terciaria);
     width: 800px;
     margin: 0px;
