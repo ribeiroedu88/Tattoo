@@ -205,19 +205,16 @@ h1 .destaque {
 /***************** CONFIGURARÇÃO STUDIO *****************/
 
 #studio-conteudo {
-    position: relative;
     min-height: 100vh;
-    text-align: center;
-    padding: 100px 0 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-content:flex-end;
+    justify-content: center;
 }
 
 #studio-conteudo img {
     border-bottom: 15px solid #f23005;
     margin-right: 10px;
-}
-
-#studio--txt {
-    margin-left: 13%;
 }
 
 #studio--txt h1 {
@@ -233,15 +230,12 @@ h1 .destaque {
     font-weight: normal;
     font-style: normal;
     line-height: 1.8rem;
-    width: 85%;
     color: var(--clr-terciaria);
-    text-align: left;
-    margin-bottom: 0;
-    padding-bottom: 0;
+    width: 75%;
 }
 
 /***************** CONFIGURARÇÃO STUDIO MOBILE *****************/
 
 @media screen and (max-width: 768px) {
-    
+
 }
