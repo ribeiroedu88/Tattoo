@@ -239,3 +239,9 @@ h1 .destaque {
     margin-bottom: 0;
     padding-bottom: 0;
 }
+
+/***************** CONFIGURARÇÃO STUDIO MOBILE *****************/
+
+@media screen and (max-width: 768px) {
+    
+}
