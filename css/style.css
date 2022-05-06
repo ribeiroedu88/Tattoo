@@ -91,7 +91,6 @@ p {
     width: 80%;
     background: var(--clr-segundaria);
     margin: 0 auto;
-    /* align-content: center; */
 }
 
 .capa-bg {
@@ -108,7 +107,7 @@ p {
 
 #txt-capa {
     width: 50%;
-    margin: -50% auto;
+    margin: -35% auto;
     text-align: center;
 }
 
