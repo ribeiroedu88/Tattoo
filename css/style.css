@@ -235,10 +235,24 @@ p {
 }
 
 #studio--descricao {
-    color: var(--clr-terciaria);
     width: 800px;
     margin: 0px;
     padding: 0px;
 }
 
 /***************** CONFIGURARÇÃO STUDIO MOBILE *****************/
+
+@media screen and (max-width: 768px) {
+    #studio-conteudo {
+        min-height: 100vh;
+        width: 100%;
+    }
+
+    #studio--txt {
+        padding: 20px;
+    }
+
+    #studio--descricao {
+        width: 100%;
+    }
+}
