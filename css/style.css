@@ -210,6 +210,11 @@ h1 .destaque {
     text-align: center;
 }
 
+#studio-conteudo img {
+    border-bottom: 15px solid #f23005;
+    margin-right: 10px;
+}
+
 #studio--txt {
     margin-left: 13%;
 }
