@@ -87,7 +87,7 @@ h1 .destaque {
 }
 
 .capa-bg {
-    position: relative;
+    /* position: relative; */
     min-height: 100vh;
     align-items: center;
 }
@@ -204,9 +204,15 @@ h1 .destaque {
 
 /***************** CONFIGURARÇÃO STUDIO *****************/
 
-#studio {
-   min-height: 100vh;
-   border: 1px solid #f23005;
+#studio-conteudo {
+    position: relative;
+    min-height: 100vh;
+    border: 1px solid #f23005;
+    text-align: center;
+}
+
+#studio--txt {
+    margin-left: 13%;
 }
 
 #studio--txt h1 {
@@ -221,6 +227,7 @@ h1 .destaque {
     font-weight: normal;
     font-style: normal;
     line-height: 1.8rem;
-    width: 77%;
+    width: 85%;
     color: var(--clr-terciaria);
+    text-align: left;
 }
