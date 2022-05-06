@@ -39,7 +39,7 @@ ul {
 
 h1 {
     color: var(--clr-terciaria);
-    font-family: 'Backslash', Arial, Helvetica, sans-serif;
+    font-family: 'Backslash', Times,  Arial, Helvetica, sans-serif;
     font-size: 3rem;
     font-weight: normal;
     font-style: normal;
