@@ -270,7 +270,7 @@ p {
         padding: 0 20px;
     }
 
-    #studio--descricao {
+    #studio--descricao, #trabalho--descricao {
         width: 100%;
     }
 
