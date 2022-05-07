@@ -263,4 +263,9 @@ p {
     #studio--descricao {
         width: 100%;
     }
+
+    #studio-carrossel {
+        width: 100vw;
+    }
 }
+
