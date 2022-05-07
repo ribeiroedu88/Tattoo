@@ -276,3 +276,34 @@ p {
     }
 }
 
+/***************** CONFIGURAÇÃO GALERIA *****************/
+
+#galeria-conteudo {
+    padding: 30px 100px;
+}
+
+#galeria-conteudo h1 {
+    width: 100px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #f23005;
+    margin: 0 0 20px 0;
+}
+
+#galeria-img img {
+    filter:brightness(30%);
+    width: 20%;
+    border-radius: 0 0 40px 40px;
+    border-top: 1px solid #f23005;
+    border-left: 1px solid #f23005;
+    border-right: 1px solid #f23005 ;;
+    border-bottom: 15px solid #f23005;
+}
+
+#galeria-img img {
+    margin-right: 34px;
+    margin-bottom: 30px;
+}
+
+#galeria-img a:hover img {
+    filter: none;
+}
