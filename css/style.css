@@ -203,10 +203,11 @@ p {
     border-top: 3px solid #f23005;
 }
 
+
 /***************** CONFIGURAÇÃO STUDIO CARROSSEL *****************/
 #studio-carrossel, #trabalho-carrossel {
     width: 50vw;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
 }
 
 #carrossel-items {
@@ -232,10 +233,10 @@ p {
     border-bottom: 15px solid #f23005;
 }
 
-#studio--txt, #trabalho--txt {
+/* #studio--txt, #trabalho--txt {
     margin: 0;
     padding: 0;
-}
+} */
 
 #studio--txt h1 {
     width: 100px;
@@ -267,6 +268,7 @@ p {
     }
 
     #studio--txt, #trabalho--txt {
+        margin: 0;
         padding: 0 20px;
     }
 
@@ -276,14 +278,10 @@ p {
 
     #studio-carrossel {
         width: 100vw;
-        margin: 0;
-        padding: 0;
     }
 
     #trabalho-carrossel {
         width: 100vw;
-        margin: 0;
-        padding: 0;
     }
 }
 
