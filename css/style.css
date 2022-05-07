@@ -200,11 +200,13 @@ p {
     justify-content: center;
     align-items: center;
     padding-top: 50px;
+    border-top: 3px solid #f23005;
 }
 
 /***************** CONFIGURAÇÃO STUDIO CARROSSEL *****************/
 #studio-carrossel {
     width: 50vw;
+    margin-bottom: 30px;
 }
 
 #carrossel-items {
