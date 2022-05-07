@@ -280,6 +280,7 @@ p {
 
 #galeria-conteudo {
     padding: 30px 100px;
+    border-top: 3px solid #f23005;
 }
 
 #galeria-conteudo h1 {
@@ -306,4 +307,22 @@ p {
 
 #galeria-img a:hover img {
     filter: none;
+}
+
+/***************** CONFIGURAÇÃO GALERIA MOBILE *****************/
+
+@media screen and (max-width: 768px) {
+    #galeria-conteudo {
+        padding: 0 20px;
+    }
+
+    #galeria-img {
+        width: 100vw;
+        display: flex;
+        overflow: auto;
+    }
+
+    #galeria-img img {
+        width: 85vw;
+    }
 }
