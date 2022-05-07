@@ -276,11 +276,7 @@ p {
         width: 100%;
     }
 
-    #studio-carrossel {
-        width: 100vw;
-    }
-
-    #trabalho-carrossel {
+    #studio-carrossel, #trabalho-carrossel {
         width: 100vw;
     }
 }
