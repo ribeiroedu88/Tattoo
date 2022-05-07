@@ -232,7 +232,7 @@ p {
     border-bottom: 15px solid #f23005;
 }
 
-#studio--txt #trabalho--txt {
+#studio--txt, #trabalho--txt {
     margin: 0;
     padding: 0;
 }
