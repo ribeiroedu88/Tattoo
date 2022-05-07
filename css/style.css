@@ -274,7 +274,7 @@ p {
         width: 100%;
     }
 
-    #studio-carrossel {
+    #studio-carrossel, #trabalho-carrossel {
         width: 100vw;
         margin: 0;
         padding: 0;
