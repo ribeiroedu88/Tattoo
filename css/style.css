@@ -200,7 +200,7 @@ p {
     justify-content: center;
     align-items: center;
     padding: 30px;
-    border-top: 3px solid #f23005;
+    border-top: 1px solid #f23005;
 }
 
 
@@ -284,15 +284,15 @@ p {
 /***************** CONFIGURAÇÃO GALERIA *****************/
 
 #galeria-conteudo {
-    padding: 30px 100px;
-    border-top: 3px solid #f23005;
+    padding: 10px 100px;
+    border-top: 1px solid #f23005;
 }
 
 #galeria-conteudo h1 {
     width: 100px;
     padding-bottom: 15px;
     border-bottom: 1px solid #f23005;
-    margin: 20px 0 20px 0;
+    margin-bottom: 30px;
 }
 
 #galeria-img img {
@@ -320,7 +320,6 @@ p {
     #galeria-conteudo {
         padding: 0 20px;
         overflow-x:  hidden;
-        
     }
 
     #galeria-img {
@@ -340,3 +339,25 @@ p {
 }
 
 /***************** CONFIGURAÇÃO GALERIA *****************/
+
+#artista-conteudo {
+    padding: 10px 100px;
+    border-top: 1px solid #f23005;
+}
+
+#artista-conteudo h1 {
+    width: 100px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #f23005;
+    margin-bottom: 30px;
+}
+
+#artista-img img {
+    width: 23%;
+    margin-right: 10px;
+    border-radius: 0 0 40px 40px;
+    border-top: 1px solid #f23005;
+    border-left: 1px solid #f23005;
+    border-right: 1px solid #f23005 ;;
+    border-bottom: 15px solid #f23005;
+}
