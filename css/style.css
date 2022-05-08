@@ -365,8 +365,30 @@ p {
 /***************** CONFIGURAÇÃO CLIENTE *****************/
 
 #cliente-conteudo {
+    width: 820px;
     display: flex;
-    flex-direction: row;
+    margin: 0px auto;
+    padding: 0;
+    align-items: center;
+    gap: 50px;
+}
+
+#cliente-conteudo img {
+    height: 80%;
+    align-self: flex-end;
+}
+
+#cliente-descricao h1 {
+    width: 100px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #f23005;
+    margin-bottom: 30px;
+}
+
+#cliente-descricao p {
+    background: #f2310530;
+    padding: 20px;
+    border-radius: 10px;
 }
 
 /***************** CONFIGURAÇÃO RODAPÉ *****************/
@@ -375,6 +397,7 @@ footer {
     height: 150px;
     background: #060606;
     color: white;
+    margin-top: 30px;
     padding-top: 50px;
     text-align: center;
 }
