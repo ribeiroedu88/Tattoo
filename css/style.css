@@ -314,6 +314,7 @@ p {
 @media screen and (max-width: 768px) {
     #galeria-conteudo {
         padding: 0 20px;
+        overflow: hidden;
     }
 
     #galeria-img {
