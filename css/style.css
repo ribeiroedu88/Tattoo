@@ -362,6 +362,29 @@ p {
     border-bottom: 15px solid #f23005;
 }
 
+/***************** CONFIGURAÇÃO ARTISTA MOBILE *****************/
+@media screen and (max-width: 768px) {
+    #artista-conteudo {
+        padding: 0 20px;
+        overflow-x:  hidden;
+    }
+
+    #artista-img {
+        width: 100vw;
+        display: flex;
+        overflow: auto;
+        scroll-snap-type: x mandatory;
+        scroll-behavior: smooth;
+    }
+
+    #artista-img img {
+        width: 85vw;
+        margin-right: 15px;
+        filter:brightness(100%);
+        scroll-snap-align: start;
+    }
+}
+
 /***************** CONFIGURAÇÃO CLIENTE *****************/
 
 #cliente-conteudo {
