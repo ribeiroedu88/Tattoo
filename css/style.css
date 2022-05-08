@@ -60,6 +60,16 @@ p {
     color: var(--clr-terciaria);
 }
 
+@media screen and (max-width: 768px) {
+    #txt-capa h1 {
+        font-size: 4rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+}
+
 /***************** CONFIGURAÇÃO NAVEGAÇÃO *****************/
 
 #nav-bar {
