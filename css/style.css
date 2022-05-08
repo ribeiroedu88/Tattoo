@@ -318,14 +318,14 @@ p {
     }
 
     #galeria-img {
-        width: 100vw;
+        width: 95vw;
         display: flex;
         overflow: auto;
     }
 
     #galeria-img img {
         width: 85vw;
-        margin-right: 10px;
+        margin-right: 15px;
         filter:brightness(100%);
     }
 }
