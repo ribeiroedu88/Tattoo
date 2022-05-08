@@ -40,7 +40,7 @@ ul {
 h1 {
     color: var(--clr-terciaria);
     font-family: 'Backslash', Times,  Arial, Helvetica, sans-serif;
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: normal;
     font-style: normal;
     letter-spacing: 0.2rem;
@@ -214,7 +214,6 @@ p {
     justify-content: center;
     align-items: center;
     padding: 30px;
-    border-top: 1px solid #f23005;
 }
 
 
@@ -248,15 +247,13 @@ p {
 }
 
 #studio--txt h1 {
-    width: 100px;
-    padding-bottom: 15px;
+    width: 80px;
     border-bottom: 1px solid #f23005;
     margin: 0 0 20px 0;
 }
 
 #trabalho--txt h1 {
-    width: 100px;
-    padding-bottom: 15px;
+    width: 80px;
     border-bottom: 1px solid #f23005;
     margin: 0 0 20px 0;
 }
@@ -299,12 +296,10 @@ p {
 
 #galeria-conteudo {
     padding: 10px 100px;
-    border-top: 1px solid #f23005;
 }
 
 #galeria-conteudo h1 {
-    width: 100px;
-    padding-bottom: 15px;
+    width: 80px;
     border-bottom: 1px solid #f23005;
     margin-bottom: 30px;
 }
@@ -356,12 +351,10 @@ p {
 
 #artista-conteudo {
     padding: 10px 100px;
-    border-top: 1px solid #f23005;
 }
 
 #artista-conteudo h1 {
-    width: 100px;
-    padding-bottom: 15px;
+    width: 80px;
     border-bottom: 1px solid #f23005;
     margin-bottom: 30px;
 }
@@ -411,8 +404,7 @@ p {
 }
 
 #cliente-conteudo h1 {
-    width: 100px;
-    padding-bottom: 15px;
+    width: 80px;
     border-bottom: 1px solid #f23005;
     margin-bottom: 30px;
 }
