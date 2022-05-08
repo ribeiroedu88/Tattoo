@@ -324,5 +324,6 @@ p {
 
     #galeria-img img {
         width: 85vw;
+        filter:brightness(100%);
     }
 }
