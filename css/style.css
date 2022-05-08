@@ -398,6 +398,7 @@ footer {
     background: #060606;
     color: white;
     margin-top: 30px;
+    padding: 20px 0;
     text-align: center;
     display: flex;
     flex-direction: row;
