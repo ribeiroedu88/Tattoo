@@ -315,17 +315,20 @@ p {
     #galeria-conteudo {
         padding: 0 20px;
         overflow-x:  hidden;
+        
     }
 
     #galeria-img {
-        width: 95vw;
+        width: 100vw;
         display: flex;
         overflow: auto;
+        scroll-snap-type: x mandatory;
     }
 
     #galeria-img img {
         width: 85vw;
         margin-right: 15px;
         filter:brightness(100%);
+        scroll-snap-align: start;
     }
 }
