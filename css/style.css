@@ -388,20 +388,15 @@ p {
 /***************** CONFIGURAÇÃO CLIENTE *****************/
 
 #cliente-conteudo {
-    width: 820px;
+    width: 850px;
     display: flex;
-    margin: 0px auto;
+    margin: 0 auto;
     padding: 0;
-    align-items: center;
-    gap: 50px;
+    align-items:flex-end;
+    gap: 30px;
 }
 
-#cliente-conteudo img {
-    height: 80%;
-    align-self: flex-end;
-}
-
-#cliente-descricao h1 {
+#cliente-conteudo h1 {
     width: 100px;
     padding-bottom: 15px;
     border-bottom: 1px solid #f23005;
@@ -409,9 +404,21 @@ p {
 }
 
 #cliente-descricao p {
+    width: 350px;
     background: #f2310530;
     padding: 20px;
+    margin: 0;
     border-radius: 10px;
+}
+
+/***************** CONFIGURAÇÃO CLIENTE MOBILE *****************/
+@media screen and (max-width: 768px) {
+    #cliente-conteudo {
+        width: 100vw;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 20px;
+    }
 }
 
 /***************** CONFIGURAÇÃO RODAPÉ *****************/
