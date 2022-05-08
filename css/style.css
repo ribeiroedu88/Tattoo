@@ -256,8 +256,13 @@ p {
 /***************** CONFIGURAÇÃO STUDIO MOBILE *****************/
 
 @media screen and (max-width: 768px) {
-    #studio-conteudo, #trabalho-conteudo {
+    #studio-conteudo {
         min-height: 100vh;
+        width: 100%;
+        padding: 0;
+    }
+
+    #trabalho-conteudo {
         width: 100%;
         padding: 0;
     }
@@ -323,6 +328,7 @@ p {
         display: flex;
         overflow: auto;
         scroll-snap-type: x mandatory;
+        scroll-behavior: smooth;
     }
 
     #galeria-img img {
