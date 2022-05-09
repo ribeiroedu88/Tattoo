@@ -505,3 +505,27 @@ footer {
 .btn-enviar {
     margin-top: 10px;
 }
+
+/***************** CONFIGURAÇÃO FOOTER MOBILE *****************/
+@media screen and (max-width: 768px) {
+
+    footer {
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px 0;
+    }
+
+    #endereco-conteudo {
+        width: 90vw;
+    }
+
+    .contato {
+        width: 85vw;
+        margin-top: 10px;
+    }
+
+    #nome, #email, #mensagem {
+        width: 85vw;
+    }
+}
