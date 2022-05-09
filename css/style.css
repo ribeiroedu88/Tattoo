@@ -214,14 +214,13 @@ p {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding: 30px;
 }
 
 
 /***************** CONFIGURAÇÃO STUDIO CARROSSEL *****************/
 #studio-carrossel, #trabalho-carrossel {
     width: 50vw;
-    margin-bottom: 0px;
+    margin-bottom: 30px;
 }
 
 #carrossel-items {
@@ -247,13 +246,13 @@ p {
     border-bottom: 15px solid #f23005;
 }
 
-#studio--txt h1 {
+#studio-conteudo h1 {
     width: 80px;
     border-bottom: 1px solid #f23005;
     margin: 0 0 20px 0;
 }
 
-#trabalho--txt h1 {
+#trabalho-conteudo h1 {
     width: 80px;
     border-bottom: 1px solid #f23005;
     margin: 0 0 20px 0;
@@ -272,6 +271,10 @@ p {
         min-height: 100vh;
         width: 100%;
         padding: 0;
+    }
+
+    #studio-conteudo h1, #trabalho-conteudo h1 {
+        margin-left: 20px;
     }
 
     #trabalho-conteudo {
