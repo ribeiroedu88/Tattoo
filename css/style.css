@@ -97,6 +97,10 @@ p {
     color: var(--clr-terciaria);
 }
 
+#nav-bar__menu a:hover {
+    color: var(--clr-primaria);
+}
+
 /***************** CONFIGURAÇÃO HOME *****************/
 #container-main {
     width: 80%;
