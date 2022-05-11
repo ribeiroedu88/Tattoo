@@ -224,17 +224,17 @@ p {
     }
 
     /* Selecionando as linhas individualmente para adicionar efeitos diferentes quando a classe ativa é adicionada ao menu de hambúrguer.*/
-    #nav.active .line:nth-child(1) {
+    #nav-bar.active .line:nth-child(1) {
         transform: translateY(13px) rotate(45deg);
         /*Moves down this line 13px and rotates it 45 degrees to create the X*/
     }
 
-    #nav.active .line:nth-child(2) {
+    #nav-bar.active .line:nth-child(2) {
         opacity: 0;
         /*Hides this line.*/
     }
 
-    #nav.active .line:nth-child(3) {
+    #nav-bar.active .line:nth-child(3) {
         transform: translateY(-13px) rotate(-45deg);
         /*Moves up this line 13px and rotates it -45 degrees to create the X*/
     }
