@@ -9,8 +9,8 @@
 
 /****** FONTES *******/
 @font-face {
-    font-family: 'Backslash';
-    src: url('../fonts/Backslash-Reguler.otf') format ('opentype');
+    font-family: 'EnglishTowne';
+    src: url('../fonts/EnglishTowne.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -39,7 +39,7 @@ ul {
 
 h1 {
     color: var(--clr-terciaria);
-    font-family: 'Backslash', Times,  Arial, Helvetica, sans-serif;
+    font-family: 'EnglishTowne', Times,  Arial, Helvetica, sans-serif;
     font-size: 2rem;
     font-weight: normal;
     font-style: normal;
