@@ -74,14 +74,14 @@ p {
 /***************** CONFIGURAÇÃO NAVEGAÇÃO *****************/
 
 #nav-bar {
-    width: 79vw;
+    width: 78vw;
     height:70px;
     background: #00000040;
     display: flex;
     align-items: center;
     justify-content: space-around;
     position: fixed;
-    z-index: 10;
+    z-index: 1000;
 }
 
 #nav-bar__logo {
@@ -90,15 +90,20 @@ p {
 
 #nav-bar__menu {
     display: flex;
-    gap: 30px;
+    padding: 1rem;
+    gap: 20px;
 }
 
 #nav-bar__menu a {
+    display: block;
     color: var(--clr-terciaria);
+    padding: 1rem;
 }
 
 #nav-bar__menu a:hover {
     color: var(--clr-primaria);
+    padding: 0.5rem;
+    border-bottom: 1px solid #f1f1f1;
 }
 
 /***************** CONFIGURAÇÃO HOME *****************/
@@ -149,10 +154,6 @@ p {
         width: 100%;
     }
 
-    #nav-bar__menu {
-        display: none;
-    }
-
     #tatoo-capa {
         height: 100vh;
         object-fit: cover;
@@ -169,11 +170,7 @@ p {
     #txt-capa a {
         margin-left: 30%;
     }
-}
 
- /***************** CONFIGURAÇÃO HAMBURGER MOBILE *****************/
-
- @media screen and (max-width: 768px) {
     #nav-bar {
         width: 100%;
         justify-content: space-between;
@@ -181,6 +178,21 @@ p {
 
     #nav-bar__logo {
         margin-left: 20px;
+    }
+
+    #nav-bar__menu {
+        display: none;
+        position: absolute;
+        width: 100%;
+        top:70px;
+        left: 0;
+        background: #00000040;
+        height: calc(100vh-70px);
+        z-index: 1000;
+    }
+
+    #nav-bar.active #nav-bar__menu {
+        display: block;
     }
 
     #btn-hamburger {
@@ -202,7 +214,7 @@ p {
         background-color: #f1f1f1;
         margin: 10px 20px;
         border-radius: 4px;
-        transition: .2s;
+        transition: 0.2s;
         opacity: .25s;
     }
 
