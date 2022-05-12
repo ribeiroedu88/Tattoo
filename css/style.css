@@ -184,7 +184,7 @@ p {
     }
 
     #nav-bar__menu {
-        font-size: 1.8rem;
+        font-size: 1.6rem;
         display: block;
         position: absolute;
         width: 100%;
@@ -196,6 +196,11 @@ p {
         height: 0;
         visibility: hidden;
         overflow: hidden;
+    }
+
+    #nav-bar__menu a:hover {
+        transform: scale(1);
+        transition: .6s;
     }
 
     #nav-bar.active #nav-bar__menu {
