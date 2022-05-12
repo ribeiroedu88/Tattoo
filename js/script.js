@@ -1,3 +1,29 @@
+
+const _elements = {
+	scrollLinks: document.querySelectorAll(".menu-items"),
+    navbarList: document.querySelector(".menu-list")
+}
+
+_elements.scrollLinks.forEach(link => {
+    link.addEventListener("click", e => {
+        _elements.navbarList.classList.remove("#nav-bar__menu");
+
+        const id = link.getAttribute("href");
+        const element = document.querySelector(id);
+        
+        const position = element.offsetTop;
+        
+        window.scrollTo({
+            top: position,
+            behavior: "smooth"
+        });
+
+        e.preventDefault();
+
+    });
+});
+
+
 ////////////////////CONFIGURAÇÃO DO MENU MOBILE/////////////////////
 
 const hamburgerMenu = document.querySelector('.hamburger'); //Seleciona o elemento com o nome da classe hamburger.
@@ -18,6 +44,10 @@ const btnMobile = document.getElementById('btn-mobile');
     }
 
 btnMobile.addEventListener('click', toggleMenu);
+
+
+
+
 
 // document.querySelector("#carrossel-items")
 // .addEventListener("wheel", event => {

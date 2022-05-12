@@ -98,11 +98,12 @@ p {
     display: block;
     color: var(--clr-terciaria);
     padding: 1rem;
+    font-weight: 600
 }
 
 #nav-bar__menu a:hover {
     color: var(--clr-primaria);
-    padding: 0.5rem;
+    padding-bottom:0.5rem ;
     border-bottom: 1px solid #f1f1f1;
 }
 
