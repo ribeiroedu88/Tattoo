@@ -369,6 +369,8 @@ p {
 
 #galeria-img a:hover img {
     filter: none;
+    transform: scale(1.3);
+    transition: .4s;
 }
 
 /***************** CONFIGURAÇÃO GALERIA MOBILE *****************/
