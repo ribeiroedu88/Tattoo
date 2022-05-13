@@ -246,6 +246,10 @@ p {
         transform: translateY(-13px) rotate(-45deg);
         /*Moves up this line 13px and rotates it -45 degrees to create the X*/
     }
+
+    .menu-list {
+        display: none;
+    }
 }
 
 /***************** CONFIGURAÇÃO STUDIO *****************/
