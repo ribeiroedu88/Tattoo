@@ -204,7 +204,7 @@ p {
     }
 
     #nav-bar.active #nav-bar__menu {
-        height: calc(55vh - 44.5px);
+        height: calc(70vh - 44.5px);
         visibility: visible;
     }
 
