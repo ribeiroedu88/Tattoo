@@ -52,15 +52,39 @@ const menuLista = document.getElementById('nav-bar__menu');
 
     menuLista.addEventListener('click', toggleLista);
 
+///////////////////////////////////////////////////////////////////////////////////
 
+    var splide = new Splide("#main-slider", {
+        width: 600,
+        height: 300,
+        pagination: false,
+        cover: true
+      });
 
+      var thumbnails = document.getElementsByClassName("thumbnail");
+      var current;
 
+      for (var i = 0; i < thumbnails.length; i++) {
+        initThumbnail(thumbnails[i], i);
+      }
 
-// document.querySelector("#carrossel-items")
-// .addEventListener("wheel", event => {
-//     if(event.deltaY > 0) {
-//         event.target.scrollBy (300, 0)
-//     } else {
-//         event.target.scrollBy (-300, 0)
-//     }
-// })
+      function initThumbnail(thumbnail, index) {
+        thumbnail.addEventListener("click", function () {
+          splide.go(index);
+        });
+      }
+
+      splide.on("mounted move", function () {
+        var thumbnail = thumbnails[splide.index];
+
+        if (thumbnail) {
+          if (current) {
+            current.classList.remove("is-active");
+          }
+
+          thumbnail.classList.add("is-active");
+          current = thumbnail;
+        }
+      });
+
+      splide.mount();

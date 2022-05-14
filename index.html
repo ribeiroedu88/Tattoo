@@ -10,6 +10,10 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.1/dist/css/themes/splide-skyblue.min.css"/>
+    
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.1/dist/js/splide.min.js"></script>
+
 </head>
 <body>
 
@@ -74,18 +78,47 @@
         <!------------ PÁGINA DO STUDIO ------------------>          
         <section id="studio-conteudo">
 
-            <div>
-                <h1>Studio</h1>
-                <div id="studio-carrossel">
-                    <div id="carrossel-items">
-                        <div class="carrossel-img"><img src="img/sobre-img-01.jpg"/></div>
-                        <div class="carrossel-img"><img src="img/sobre-img-02.jpg"/></div>
-                        <div class="carrossel-img"><img src="img/sobre-img-03.jpg"/></div>
-                        <div class="carrossel-img"><img src="img/sobre-img-04.jpg"/></div>
-                        <div class="carrossel-img"><img src="img/sobre-img-05.jpg"/></div>
-                    </div>
+            <h1>Studio</h1>
+
+            <section id="main-slider" class="splide">
+                <div class="splide__track">
+                    <ul class="splide__list">
+                    <li class="splide__slide">
+                        <img src="img/sobre-img-01.jpg" alt=""/>
+                    </li>
+                    <li class="splide__slide">
+                        <img src="img/sobre-img-02.jpg" alt=""/>
+                    </li>
+                    <li class="splide__slide">
+                        <img src="img/sobre-img-03.jpg" alt=""/>
+                    </li>
+                    <li class="splide__slide">
+                        <img src="img/sobre-img-04.jpg" alt=""/>
+                    </li>
+                    <li class="splide__slide">
+                        <img src="img/sobre-img-05.jpg" alt=""/>
+                    </li>
+                    </ul>
                 </div>
-            </div>
+            </section>
+
+            <ul id="thumbnails" class="thumbnails">
+                <li class="thumbnail">
+                  <img src="img/mini-sobre-img-01.jpg" alt=""/>
+                </li>
+                <li class="thumbnail">
+                  <img src="img/mini-sobre-img-02.jpg" alt=""/>
+                </li>
+                <li class="thumbnail">
+                  <img src="img/mini-sobre-img-03.jpg" alt=""/>
+                </li>
+                <li class="thumbnail">
+                  <img src="img/mini-sobre-img-04.jpg" alt=""/>
+                </li>
+                <li class="thumbnail">
+                  <img src="img/mini-sobre-img-05.jpg" alt=""/>
+                </li>
+            </ul>
             
             <article id="studio--txt">
                 <p id="studio--descricao">
@@ -97,7 +130,6 @@
 
         <!------------ PÁGINA DO TRABALHO ------------------>
         <section id="trabalho-conteudo">
-            <div>
                 <h1>Trabalhos</h1>
                 <div id="trabalho-carrossel">
                     <div id="carrossel-items">
@@ -107,7 +139,7 @@
                         <div class="carrossel-img"><img src="img/trabalho-img-01.jpg"/></div>
                     </div>
                 </div>
-            </div>
+
             
             <article id="trabalho--txt">
                 <p id="trabalho--descricao">
