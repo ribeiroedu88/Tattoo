@@ -363,7 +363,8 @@ p {
 /***************** CONFIGURAÇÃO STUDIO MOBILE *****************/
 
 @media screen and (max-width: 768px) {
-    #studio-conteudo {
+    #studio-conteudo,
+    #trabalho-conteudo {
         min-height: 100vh;
         width: 100%;
         padding-top: 50px;
@@ -373,10 +374,10 @@ p {
         margin-left: 20px;
     }
 
-    #trabalho-conteudo {
+    /* #trabalho-conteudo {
         width: 100%;
         padding: 0;
-    }
+    } */
 
     #studio--txt, #trabalho--txt {
         margin: 0;
